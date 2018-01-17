@@ -1,1 +1,17 @@
 Here you can find the files I subbmitted to the course NodeJs
+
+First of all I want to say that I use csvtojson library
+since I like to focus on studing NodeJs technology and less on Computer-Science kind of exercises
+
+Design:
+There is 1 function which is responsible for the parsing bussiness logic
+It waits for the following events:
+1. 'csv' event so it can count the number of rows parsed (so we will see it is 1000 rows as excpected)
+2. 'error' event to print any error while parsing
+3. 'done' event to write some finish message to the user
+4. 'end_parsed' event to finally get the json created and write down to a file
+
+I also use console.time in order to time of the program running
+
+Thanks 
+For reviewing my work :-)
